@@ -1,0 +1,1142 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.HomeMain{
+  display: flex;
+}
+.signup{
+  margin-right: 20px;
+}
+.Email_input{
+  width: 384px;
+  margin-bottom: 10px;
+  border-color: rgba(0,0,0,0.1);
+  border-radius: 4px;
+  height: 35px;
+  padding-left: 20px;
+  outline: none;
+  font-size: 17px;
+}
+.Email_input::-webkit-input-placeholder{
+  color: rgba(0,0,0,0.43);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.eye{
+  position: absolute;
+  margin-left: -45px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: rgba(0,0,0,0.5);
+}
+
+.register{
+  background-color: #e9ebee;
+  /* height: 100%; */
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.register_container{
+  flex-direction: column;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  height: fit-content;
+  width: 436px;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.center{
+  position: relative;
+}
+.hr3{
+  margin-top: 0 !important;
+  border-bottom: 1px solid #dadde1 !important;
+  margin-bottom: 20px;
+}
+.register_container>h1{
+  margin-top: 15px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.row input{
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 20px;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  line-height: 16px;
+  font-size: 17px;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 180px;
+  margin-left: 15px;
+}
+.register_container > p{
+  font-size: 15px;
+  color: #606770;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.center > input{
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 20px;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  line-height: 16px;
+  font-size: 17px;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 83%;
+  margin-left: 10px;
+}
+.center .psw{
+  width: 89%;
+}
+.center>input::-webkit-input-placeholder,
+.row>input::placeholder{
+  font-size: 17px;
+  color: rgba(128,128,128,0.8);
+  padding-left: 0px;
+}
+.row .register_date2{
+  margin-left: -70px;
+  margin-right: 10px;
+  height: 40px;
+  width: 130px;
+  border: 1px solid #dddfe2;
+  outline: #ccd0d5;
+  border-radius: 5px;
+  margin-top: 40px;
+  float: left;
+}
+.register_date,.register_gender{
+  padding-left: 20px;
+}
+.register_date3{
+  margin-left: -70px;
+  margin-right: 10px !important;
+  height: 40px;
+  border: 1px solid #dddfe2;
+  width: 130px;
+  outline: #ccd0d5;
+  border-radius: 5px;
+  margin-top: 40px;
+  float: left;
+}
+.register_date, .register_gender{
+  font-size: 12px;
+  color: #606770;
+  font-weight: 400;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.register_radiocontainer{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-right: -399px;
+  margin-left: 20px;
+}
+.wrapper{
+  padding: 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid rgba(128,128,128,0.493);
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+input:checked{
+  background-color: blue;
+}
+.wrapper label{
+  margin-right: 35px;
+  cursor: pointer;
+}
+.wrapper input{
+  margin-top: 5px;
+  cursor: pointer;
+}
+.register_policy{
+  font-size: 12px;
+  color: #1c1e21;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+}
+.submit{
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(105, 238, 105);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.submit:focus{
+  font-size: 15px;
+}
+.submit:hover{
+  background-color: rgb(135, 245, 135);
+}
+.warning{
+  padding: -1px 5px 7px ;
+  font-size: smaller;
+  color: red;
+  margin-right: 260px;
+  margin-top: -5px;
+}
+.register_policy{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.InstaLogo{
+  font-size: 40px;
+}
+.LogoName{
+  display: flex;
+  margin-top: 10px;
+}
+.InstaName{
+  font-size: 25px;
+  margin-left: 10px;
+  font-family:cursive;
+  margin-top: 3px;
+}
+.sidebar{
+  height: 100vh;
+  width: 280px;
+  overflow-y: auto;
+  /* background-color: rgba(0,0,0,0.86); */
+}
+.sidebar::-webkit-scrollbar{
+  display: none;
+}
+.hrSidebar{
+  transform: translateY(-20px);
+}
+.LinkHome{
+  padding-left: 40px;
+}
+.sidebarIcons{
+  margin-right: 5px;
+  margin-top: -4px;
+}
+.postNavMain{
+  margin-left: 100px;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  width:590px;
+  height: 150px;
+  padding-top: 25px;
+  flex-wrap: wrap;
+  /* overflow-y: auto; */
+  position:sticky;
+}
+/* .PostBarMain{
+  background-color: rgba(0,0,0,0.86);
+} */
+/* .postNavMain::-webkit-scrollbar{
+  display: none;
+} */
+.storyText{
+  font-size: 12px;
+  margin-top: 4px;
+  transform: translateX(6px);
+}
+.storyImages{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 4px solid rgb(76, 14, 138);
+  object-fit: cover;
+}
+.PostNavStory{
+  display: flex;
+}
+.oneStory{
+  margin-right: 15px;
+}
+.body{
+  background-color: rgba(0,0,0,0.86);
+}
+.postbar{
+  background-color:rgba(0,0,0,0.86);
+  overflow: auto;
+}
+.postbar::-webkit-scrollbar{
+  display: none;
+}
+.sidebarMainItems{
+  display: flex;
+}
+.SideIcons{
+  font-size: 22px;
+}
+.SideIconsText{
+  margin-left: 10px;
+  font-size: 17px;
+}
+/* post section */
+.postSection{
+  color: white;
+  width: 600px;
+  min-height: 569px;
+}
+.PostItemOne{
+  margin: 10px 0px 0px 160px;
+  padding-bottom: 100px;
+}
+.firstPostItem{
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 10px;
+  width: 400px;
+  padding:10px 20px;
+  margin: 0px 0px 40px 24px;
+}
+.PostProfileImg{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rebeccapurple;
+}
+.Postheading{
+  display: flex;
+}
+/* .extra{
+  width: 2px;
+  position: static;
+} */
+.PostHeadMain{
+  margin-left:10px;
+}
+.PostHead{
+  font-size: 15px;
+  margin-top: 8px;
+}
+.PostDesc{
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.PostDate{
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.EditItems{
+  transform: translateX(130px);
+  font-size: 25px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+.PostItemPost{
+  width: 360px;
+  height: 300px;
+  margin: 10px 0px 0px 0px;
+  object-fit: cover;
+}
+.middlePage{
+  height: 100vh;
+  width: 130%;
+  overflow-y: auto;
+  color: white;
+}
+.middlePage::-webkit-scrollbar{
+  display: none;
+}
+/* .middlePage{
+  margin-left: 280px;
+} */
+/* CommentSection */
+.LikeCommentSection{
+  display: flex;
+}
+.LikeSection,.CommentSection,.shareSection{
+  font-size: 25px;
+  margin: -10px 0px 10px 10px;
+  cursor: pointer;
+}
+.saveSection{
+  font-size: 25px;
+  margin: -10px 0px 10px 220px;
+  cursor: pointer;
+}
+.likesecPic{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Likevalues{
+  margin-top: -5px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.LikeDescriptionSec{
+  margin-bottom: 5px;
+}
+.Comments{
+  font-size: 15px;
+}
+/* rightbarMain */
+.rightBar{
+  height: 100vh;
+  overflow-y: auto;
+  background-color:rgba(0,0,0,0.86);
+  color: white;
+  width: 100%;
+}
+.rightBar::-webkit-scrollbar{
+  display: none;
+}
+.rightBarMain{
+  margin: 40px 135px 0px 120px;
+}
+.main_switch{
+  display: flex;
+  margin-bottom: 20px;
+}
+.accDetails{
+  margin-left: 10px;
+}
+.Name{
+  font-size: 14px;
+}
+.descr{
+  font-size: 11px;
+  word-wrap: break-word;
+}
+.switchName{
+  transform: translateX(30px);
+  margin-top: 8px;
+}
+.switchName .aLink{
+  color: rgba(96, 143, 245, 0.854);
+  background: none;
+  border: none;
+  outline: none;
+  font-weight: 700px;
+}
+.imgflex{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid darkmagenta;
+}
+.Suggestions{
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.headingSugge{
+  color: rgba(255,255,255,0.6);
+}
+.seeAll{
+  transform: translateX(126px);
+}
+.profilePic{
+  object-fit: cover;
+}
+.footersec{
+  color: rgba(255,255,255,0.5);
+  font-size: 12px;
+}
+.menuMiddle{
+  width: 800px;
+}
+.setHeight{
+  height:98vh;
+}
+/* AddStoryMiddle */
+.addStoryMiddle{
+  /* height: 100%; */
+  margin-left: 160px;
+  margin-top: -50px;
+  height: 101vh;
+  padding:0px 0px 128px 0px;
+}
+.fileType{
+  height: 150px;
+}
+.StoryId{
+  padding: 3px;
+  width:405px;
+  border-top-right-radius: 10px;
+  margin-left: -80px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+}
+.UploadBtn{
+  font-size: 45px;
+  position:  absolute;
+  pointer-events: none;
+  margin-left: -210px;
+  margin-top: 60px;
+}
+.AddPostBtn{
+  margin-top: 25px;
+}
+.AddStoryToolTipHeading{
+  color: white;
+  width: 200px;
+  height: 90px;
+  background-color: green;
+  z-index: 999;
+}
+.ContainerMain{
+  width: 100%;
+  height: 100vh;
+  padding-top: 6%;
+}
+.StoryMainPage{
+  background-color: #1c1e21;
+}
+.addPostButton{
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.tooltip{
+  color: white;
+}
+.TooltipAddPost p{
+  margin: 10px;
+  padding-left: 10px;
+}
+.TooltipAddPost{
+  pointer-events: none;
+  margin-top: 90px;
+  width: 300px;
+  position: absolute;
+  margin-left: 17%;
+  z-index: 999;
+  color: white;
+  color: rgb(107, 152, 39);
+  font-weight: 700;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  animation: AnimateTooltip 0.05s forwards;
+}
+
+@keyframes AnimateTooltip {
+  0% {
+    width: 40px;
+    font-size: 2px;
+  }
+  10% {
+    width: 80px;
+    font-size: 5px;
+  }
+  30% {
+    width: 120px;
+    font-size: 7px;
+  }
+  50% {
+    margin-right: calc(17% - 200px);
+    width: 160px;
+    font-size: 10px;
+  }
+  70% {
+    margin-right: calc(17% - 220px);
+    width: 200px;
+    font-size: 12px;
+  }
+  90% {
+    width: 220px;
+    font-size: 14px;
+  }
+  100% {
+    width: 300px; 
+    font-size: 16px;
+    margin-right: calc(17% - 300px);
+  }
+}
+.storyImageMain{
+  /* background-image: url("/Instagram_clone/public/post1.jpeg"); */
+  /* width: 380px; */
+  width: 1200px;
+  height: 540px;
+  margin-left: 10%;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: transparent;
+}
+.ContainerMain{
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.NoStory{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.StoryDeleteIcon,.StoryCross{
+  font-size: 22px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: white;
+}
+.StoryIcons{
+  display: flex;
+  float: right;
+  margin-left: 57%;
+}
+.storyMainImage{
+  width: 330px;
+  height: 460px;
+  margin-left: 35%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.ForStoryImage{
+  display: flex;
+  flex-direction: column;
+}
+.PlusIconStory{
+  margin-top: -4px;
+  color: white;
+  font-size: 78px;
+  margin-top: -3px;
+  border: 4px solid green;
+  border-radius: 50%;
+
+}
+.NewStory{
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+/* Post Middle */
+.ProfileMain{
+  margin-top: -30px;
+  /* display: flex; */
+  margin-left: -30px;
+  width: 900px;
+  height: 84vh;
+}
+.profileFirstSec{
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 18px;
+  margin-left: 50px;
+}
+.profileImageCircle{
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.subProfileFirstsec {
+  display: flex;
+  /* flex-direction: column; */
+  width: 200px;
+  height: 40px;
+}
+.BioProfile{
+  margin-left: -53%;
+  margin-top: 10px;
+}
+.firstProfileSecMain{
+  margin: 20px 0px 0px 100px;
+}
+.firstProfileSpanTag{
+  margin-right: 40px;
+  margin-left: -53px;
+  font-size: 22px;
+}
+.secondProfilesec{
+  font-size: 17px;
+  margin-top: 15px;
+}
+.firstProfilePTag{
+  margin-right: 25px;
+}
+.profileSecondSec{
+  color: white;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.HrTag{
+  margin-top: 30px;
+  color: white;
+}
+.headingProfile{
+  color: white;
+  font-size: 18px;
+}
+.ProfilePagePostIcon{
+  margin-right: 5px;
+}
+.ProfilePagePostName{
+  color: white;
+  margin-right: 150px;
+  background: none;
+  border: none;
+}
+.NoPostsProfile{
+  color: white;
+  margin-top: 50px;
+  margin-left: -110px;
+}
+.footerHeading{
+  margin-top: 150px;
+  color: white;
+}
+.ImagesMainProfile{
+  margin-left: -150px;/*mark*/
+  display: flex;
+  flex-wrap: wrap;
+}
+.PostShowImagesProfile{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.PostColors{
+  color: white;
+  margin-left: -115px;
+}
+.profileThirdSec{
+  margin-left: 140px;
+}
+/* ProfileEditForm */
+.FormTag{
+  position: absolute;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100vh;
+  margin-left: -500px;
+  margin-top: -40px;
+  z-index: 999;
+}
+.FormTagProfile{
+  position: absolute;
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100vh;
+  margin-left: -500px;
+  margin-top: -500px;
+  z-index: 999;
+}
+.ProfilleFormMain{
+  margin-top: 120px;
+  margin-left: 500px;
+  /* background-color: green; */
+  width: 600px;
+  height: 500px;
+}
+.profileInputTag{
+  padding: 5px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.upldback{
+  /* background-color: purple; */
+  border-radius: 10px;
+  padding: 10px;
+  width: 350px;
+}
+.UpdateProfile{
+  margin-top: 10px;
+}
+.videoMainSec{
+  display: flex;
+}
+.MainReels{
+  margin-top:20px;
+}
+.textGrid{
+  color: white;
+}
+.VideoTag{
+  height: 200px;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 10px;
+  padding: 0;
+  margin-left: -23px;
+}
+.savedPostsWrap{
+  margin-left: 150px;
+  cursor: pointer;
+}
+.savedPostWidth{
+  width: 110%;
+  z-index: 999;
+}
+.BlurImageMain{
+  width: 500px;
+  margin-left: 100px;
+  padding:40px 20px;
+  margin-top: -20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: -40px;
+}
+.ImageBlur{
+  width: 400px;
+  height: 500px;
+  margin-left: -50px 0px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.CrossSymbol{
+  color: black;
+  font-size: 22px;
+  margin-top: 4px;
+  margin-left: 250px;
+  position: absolute;
+}
+.SaveIcon{
+  color: black;
+  font-size: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.ToolTip{
+  background-color: white;
+}
+.story{
+  background: none;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+.savedStoryWidth{
+  width: 110%;
+  z-index: 999;
+}
+.FormTagStory{
+  position: absolute;
+  /* backdrop-filter: blur(5px); */
+  width: 100%;
+  height: 100vh;
+  margin-left: -600px;
+  margin-top: -40px;
+  z-index: 999;
+}
+.saveIconStory{
+  color: black;
+  font-size: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 400px;
+}
+.ImageBlurStory{
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 24px;
+  object-fit: cover;
+}
+.CrossSymbolStory{
+  color: black;
+  font-size: 22px;
+  margin-top: 4px;
+  margin-left: 550px;
+  position: absolute;
+}
+/* SearcBar */
+.searchBarMain{
+  width: 450px;
+  height: 100vh;
+  padding: 0;
+  position:absolute;
+  background-color: #1c1e21;
+  overflow-y: auto;
+}
+.searchBarMain::-webkit-scrollbar{
+  display: none;
+}
+.searchInput{
+  padding:6px;
+  width: 400px;
+  background:none;
+  background-color: #606770;
+  border: none;
+  border-bottom:1px solid rgba(255,255,255,0.8);
+  color: white;
+  border-radius: 5px;
+}
+.searchInput::placeholder{
+  color: white;
+  padding-left: 10px;
+}
+.SearchedItemImage{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.SearchedItem{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.headingDescMain{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: -3px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.SearchName{
+  font-size: 15px;
+}
+.searchDesc{
+  font-size: 13px;
+}
+
+.SearchedItem:hover{
+  background-color:#606770;
+  cursor: pointer;
+  padding: 10px;
+}
+.searchCross{
+  margin-top: -10px;
+  margin-left: 80px;
+  color: white;
+}
+.NoSearchUser{
+  margin-top: 50px;
+  margin-left: 110px;
+  font-size: 24px;
+  color: white;
+}
+.MessageStyle{
+  height:0vh;
+  background:transparent;
+}
+.searchBarMiddleMain{
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  color: white;
+}
+.searchBarMiddlePageMain{
+  margin-top: 240px;
+  margin-left: 180px;
+}
+.MessangerIcon{
+  color: white;
+  font-size: 60px;
+}
+.SearchHeading{
+  color: white;
+  margin-top: 15px;
+  font-size: 22px;
+  margin-left: 10px;
+}
+.sendMessage{
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.MessagePageAccname{
+  color: white;
+}
+.MessagePageAccname{
+  font-size: 24px;
+  margin: 10px;
+  font-family:cursive;
+}
+.whiteMessages{
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.whiteRequest{
+  color: white;
+  float: right;
+  margin-right: 30px;
+  font-size: 18px;
+}
+.OneSingleChat{
+  display: flex;
+  margin: 20px 10px 0px 10px;
+  cursor: pointer;
+}
+.singleChatImage{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.SingleChatName{
+  color: white;
+  font-size: 17px;
+}
+.SignleChatDesc{
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.SingleChatValues{
+  margin-top: 10px;
+  display: flex;
+  margin-left: 14px;
+  flex-direction: column;
+}
+.OneSingleChat:hover{
+  background-color: #606770;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.MessagesNav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 88%;
+  transform: translateX(-370px);
+  padding-top: 50px;
+  margin-top: -25px;
+  margin-left: 820px;
+  padding-left: 40px;
+  background-color: #1c1e21;
+  z-index: 999;
+}
+.MessagesChatImage{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.ChatMessagesName{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.MessagesSendSearch{
+  display: flex;
+}
+.ChatMessagesImages{
+  margin-left: 200px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #1d2129;
+}
+
+.footerInput {
+  padding: 5px;
+  margin: 0;
+  width: 1000px;
+  border: 1px solid rgba(255,255,255,0.5);
+  background-color: transparent;
+  margin-left: 70px;
+  border-radius: 10px;
+  color: white;
+  padding-left: 20px;
+}
+.footerInput::placeholder{
+  font-size: 18px;
+}
+.Sendbtn{
+  position: fixed;
+  bottom: 0;
+  border: none;
+  color: white;
+  background: none;
+  font-size: 27px;
+  transform: translateY(3px);
+  margin-left: 1030px;
+  padding-bottom: 13px;
+  cursor: pointer;
+}
+.MessageSending:nth-child(1){
+  margin-top: 15px;
+}
+.MessageSending{
+  background-color:skyblue;
+  margin-top: 10px;
+  color: black;
+  margin-left: 750px;
+  width: 300px;
+  padding: 10px 0px 10px 20px;
+  font-family:cursive;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 26px;
+  /* border-radius: 25px; */
+  overflow-y: auto;
+}
+.MessageBody{
+  display: flex;
+  flex-direction: column;
+  margin-left: 230px;
+}
+.MessageSentImage{
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left:780px ;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.custom-file-label {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  color: #fff;
+  font-size: 24px;
+  margin-top: -12px;
+  width: 60px;
+  border-radius: 5px;
+  margin-left: 64%;
+}
+
+.VideoUpload {
+  display: none;
+}

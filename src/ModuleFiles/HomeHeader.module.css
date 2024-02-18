@@ -1,0 +1,11 @@
+.homeHeader{
+  transform: translateX(-100px);
+}
+.navEle{
+  transform: translateX(70px);
+}
+.displayWrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
