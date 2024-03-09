@@ -16,6 +16,7 @@ import ProfilePosts from "./components/sidebar/ProfilePosts.jsx";
 import SavedPostsMain from "./components/sidebar/SavedPostsMain.jsx";
 import MessagesMain from "./components/sidebar/MessagesMain.jsx";
 import SearchBar from "./components/sidebar/SearchBar.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
 const router = createBrowserRouter([
   {
     path: "/",
